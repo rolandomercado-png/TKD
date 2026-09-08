@@ -1,0 +1,28 @@
+{
+  "packageId": "com.tvkiosk.display",
+  "host": "ais-pre-7v63pj72dx7egvscgequdu-795072195608.us-east1.run.app",
+  "name": "TV Kiosk Display",
+  "launcherName": "TV Kiosk",
+  "display": "fullscreen",
+  "themeColor": "#090D16",
+  "navigationColor": "#090D16",
+  "backgroundColor": "#090D16",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://ais-pre-7v63pj72dx7egvscgequdu-795072195608.us-east1.run.app/pwa-512x512.png",
+  "maskableIconUrl": "https://ais-pre-7v63pj72dx7egvscgequdu-795072195608.us-east1.run.app/pwa-maskable-512x512.png",
+  "appVersionCode": 1,
+  "appVersionName": "1.0.0",
+  "orientation": "any",
+  "generatorApp": "bubblewrap-cli",
+  "features": {
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": false,
+  "isChromeOSOnly": false
+}

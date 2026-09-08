@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="tvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle corner radius -->
+  <rect width="512" height="512" rx="96" fill="url(#tvGrad)" />
+  
+  <!-- Outer TV bezel -->
+  <rect x="56" y="76" width="400" height="270" rx="24" fill="#1e293b" stroke="#334155" stroke-width="8" />
+  
+  <!-- Inner TV display area -->
+  <rect x="76" y="96" width="360" height="230" rx="14" fill="url(#screenGrad)" />
+  
+  <!-- Kiosk Auto-Reload loop icon on screen -->
+  <path d="M 256 140 A 64 64 0 1 0 320 204" fill="none" stroke="url(#accentGrad)" stroke-width="16" stroke-linecap="round" />
+  <polyline points="320,172 320,204 288,204" fill="none" stroke="url(#accentGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Active TV Power / Status LED -->
+  <circle cx="256" cy="336" r="4" fill="#38bdf8" />
+  
+  <!-- TV Stand -->
+  <rect x="236" y="354" width="40" height="42" fill="#334155" />
+  <path d="M 176 396 L 336 396" stroke="#475569" stroke-width="12" stroke-linecap="round" />
+  
+  <!-- Live Signal / Fullscreen Kiosk badge -->
+  <circle cx="396" cy="126" r="8" fill="#10b981" />
+</svg>

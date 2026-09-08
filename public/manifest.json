@@ -1,0 +1,60 @@
+{
+  "id": "/",
+  "name": "TV Kiosk Display",
+  "short_name": "TV Kiosk",
+  "description": "Modo kiosco profesional para TV y pantallas con auto-recarga, pantalla siempre activa y arranque automático.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["utilities", "business", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-tv.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "TV Kiosk Display en pantalla completa"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Abrir Kiosco",
+      "short_name": "Kiosco",
+      "description": "Iniciar visor a pantalla completa",
+      "url": "/?kiosk=true",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

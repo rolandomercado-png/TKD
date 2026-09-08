@@ -1,0 +1,6 @@
+{
+  "name": "TV Kiosk Display",
+  "description": "Modo kiosco profesional para TV y pantallas con auto-recarga, pantalla siempre activa (Wake Lock) y guías de arranque automático.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
